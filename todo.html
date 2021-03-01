@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <link rel = "stylesheet" href = "style.css">
+    <head>
+        <title>TODO List</title>
+    </head>
+    <body>
+        <h1> TODO List</h1>
+        <div id = "input" class = "options">
+            <label for = "textbox">Task</label><br>
+            <input id = "textBox" type = "text"><br>
+            <label for = "timeBox">Estimated Time (Hours)</label><br>
+            <input id = "timeBox" type = "text"><br>
+            <div class = "buttons">
+                <input id = "add" type = "button" value = "Add">
+                <input id = "remove" type = "button" value = "Remove">
+            </div>
+        </div>
+        <div id = "organize" class = "options">
+            <label for = "highlight">Highlight</label>
+            <div id = "highlight">
+                <input id = "white" class = "colorButton" type = "button">
+                <input id = "red" class = "colorButton" type = "button">
+                <input id = "blue" class = "colorButton" type = "button">
+                <input id = "yellow" class = "colorButton" type = "button">
+            </div>
+        </div>
+        <div id = "list">
+            <div id = "task" for = "list">Task</div>
+            <div id = "est" for = "est">Estimated Time</div>
+
+        </div>
+    </body>
+    <script src="content.js"></script>
+</html>

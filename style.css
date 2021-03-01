@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid red;
+}
+
+h1 {
+    font-size: 150%;
+    text-align: center;
+}
+
+.options {
+    padding: 2%;
+    padding-right: 5%;
+    font-size: 110%;
+    border: 1px solid blue;
+    min-height: 150px;
+}
+
+#input {
+    float: left;
+    margin-left: 5%;
+}
+
+#organize {
+    margin-left: 50%;
+    margin-right: 5%;
+}
+
+#timeBox {
+    width: 46%;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.radio {
+    font-size: 20%;
+}
+
+.colorButton {
+    padding: 0;
+    border: 2px solid black;
+    width: 15px;
+    height: 15px;
+}
+
+#white {
+    background: white;
+}
+
+#red {
+    background: red;
+}
+
+#blue {
+    background: blue;
+}
+
+#yellow {
+    background: yellow;
+}
+
+#task {
+    float: left;
+    margin-left: 5%;
+}
+
+#est {
+    text-align: right;
+}
+
+#list {
+    margin: 2%;
+}
+
+.task {
+    font-size: 125%;
+}
